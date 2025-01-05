@@ -1,0 +1,29 @@
+Langkah-langkah Implementasi
+
+1. Persiapan Database
+Buat database baru di MySQL bernama todo_list.
+Buat tabel bernama tasks dengan kolom berikut:
+-id (INT, Primary Key, Auto Increment)
+-task_description (VARCHAR)
+-created_at (TIMESTAMP)
+
+2. Formulir Tambah Tugas Baru
+Buat file index.php untuk menampilkan formulir dan daftar tugas.
+
+3. Menampilkan Daftar Tugas
+Tambahkan kode di file index.php untuk menampilkan tugas-tugas.
+
+4. Edit Tugas
+Buat file edit.php untuk mengedit tugas.
+
+5. Hapus Tugas
+Buat file delete.php untuk menghapus tugas.
+
+Penjelasan
+Koneksi ke Database: Menggunakan mysqli untuk terhubung ke database MySQL.
+CRUD Operasi:
+Create: Menambahkan tugas baru ke tabel tasks.
+Read: Menampilkan semua tugas dari tabel tasks.
+Update: Mengedit tugas yang ada berdasarkan id.
+Delete: Menghapus tugas berdasarkan id.
+Routing Sederhana: Menggunakan $_GET untuk menangkap parameter id dan $_POST untuk menangani data formulir.
